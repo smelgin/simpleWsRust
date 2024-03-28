@@ -21,6 +21,9 @@ fn index(key: String) -> Result<String, status::Custom<&'static str>> {
     my_map.insert("Construction".to_string(), 38);
     my_map.insert("Energy".to_string(), 48);
     my_map.insert("Education".to_string(), 60);
+    my_map.insert("Finance".to_string(), 57);
+    my_map.insert("Retail".to_string(), 48);
+    my_map.insert("Government".to_string(), 60);
 
     match my_map.get(&key) {
         Some(value) => Ok(value.to_string()),
