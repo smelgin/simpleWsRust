@@ -9,3 +9,8 @@ Example:
 http://server/Transportation
 
 Note that the industry parameter is case sensitive.
+
+This project has been deployed in the following Url from Render.com:
+https://simplewsrust.onrender.com
+Access to the deployment dashboard:
+https://dashboard.render.com/web/srv-cnuv6s0cmk4c73e27rn0/events
